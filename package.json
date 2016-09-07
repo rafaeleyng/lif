@@ -1,7 +1,7 @@
 {
   "name": "lif",
   "version": "0.1.0",
-  "description": "",
+  "description": "**WIP**",
   "main": "src/index.js",
   "scripts": {
     "build": "babel src -d lib",
@@ -20,5 +20,27 @@
     "babel-cli": "6.14.0",
     "babel-preset-es2015": "6.14.0",
     "babel-preset-stage-2": "6.13.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "ava": "0.16.0",
+    "babel-preset-es2015": "6.14.0",
+    "babel-preset-stage-2": "6.13.0",
+    "babel-cli": "6.14.0",
+    "lodash": "4.15.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaeleyng/lif.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rafaeleyng/lif/issues"
+  },
+  "homepage": "https://github.com/rafaeleyng/lif#readme",
+  "keywords": [
+    "game of life",
+    "conway"
+  ]
 }
